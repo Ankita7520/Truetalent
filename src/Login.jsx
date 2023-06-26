@@ -39,6 +39,8 @@ const Login =()=>{
                         <input type="checkbox" className="RM"/> <label htmlFor="" id="MR">Remember Me</label><br></br>
                         <h5 className="fg">Forgot Password?</h5>
                         </div>
+
+                        
                     </div>
                     <div>
                         <button className="SI">Sign in</button><br></br>
