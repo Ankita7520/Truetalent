@@ -328,6 +328,107 @@ span{
     flex-wrap: wrap;
     justify-content: center;
 }
+.sign{
+    position: relative;
+    left: 280px;
+    top:60px;
+    /* border: 2px solid rgb(203, 199, 199); */
+}
+.email{
+    margin-left: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: #ebecef;
+    background-color: #ebecef;
+    
+    }
+    
+.password{
+    margin-left: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: #ebecef;
+    background-color: #ebecef;
+    margin-top: 7%;
+    
+}
+#MR{
+    margin-top: 5%;
+    font-size: x-small;
+    position: relative;
+    left: 20px;
+}
+.RM{
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    background-color: #77797c;
+
+}
+.fg{
+    margin-left: 30%;
+    color: #14bc9a;
+    font-weight: lighter;
+    font-size: small;
+    
+}
+.SI{
+    width: 320px;
+    margin: 4%;
+    border-radius: 5px;
+    background-color: #14bc9a;
+    border: none;
+    height: 30px;
+    color: aliceblue;
+    margin-top: 10%;
+    position: relative;
+    bottom: 20px;
+}
+.inlog{
+    position: relative;
+    left: 80px;
+}
+.or{
+    position: relative;
+    bottom: 25px; 
+    left: 7px;
+}
+.google{
+    margin: 5%;
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+    background-color: rgb(246, 248, 249);
+    border: #6c6e73;
+    
+
+}
+.JS{
+    margin-left:25%; 
+    margin-bottom:30%;
+    margin-top: 0%;
+    position: relative;
+    bottom: 50px;
+    font-weight: lighter;
+    font-size: small;
+    left: 20px;
+}
+#ic-ai{
+    position: relative;
+    right:25px;
+}
+.cover{
+    width: 500px;
+    max-width: fit-content;
+}
+
+
 @media (max-width:576px){
        .nav-main{
            height: 7vh;
@@ -416,6 +517,7 @@ span{
         width: 17vw;
         height: 4vh;
        }
+       
 
        /* .inp{
         width: 25.5vw;
@@ -424,5 +526,17 @@ span{
        .input-bttn{
         height: 2.5vh;
        } */
+       
+       .boxx-main{
+        width: 300%;
+        margin-left: -20%;
+        display: flex;
+        justify-content: center;
+       }
+       .box-head{
+        flex-basis:7px;
+        font-size: .2em;
+       }
+
 
 }

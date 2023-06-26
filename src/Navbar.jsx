@@ -28,7 +28,7 @@ const Navbar=()=>{
                 <a href="" className="tt">TT Gig</a>
             </div>
             <div className="bttn">
-                <button className="log" id="log">Login</button>
+                <button className="log" id="log"><a href="/login">Login</a></button>
                 <button className="log">Register</button>
             </div>
             </div>
