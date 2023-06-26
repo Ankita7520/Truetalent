@@ -156,7 +156,7 @@ span{
      text-align: center;
      border: 1px solid white;
      border-radius: 10px;
-     margin-right: 1%;
+     margin-right: 2%;
      margin-top: 2%;
      box-shadow: 0 0 10px rgb(207, 205, 205);
 }
@@ -169,6 +169,164 @@ span{
     margin-top: 8px;
     width: 80%;
     height: 70%;
+}
+.featured{
+    font-family: 'plus Jakarta Sans',sans-serif;
+    text-align: center;
+}
+.boxx-1{
+    border: 1px solid white;
+    box-shadow: 0 0 5px gray;
+    width: 12%;
+    border-radius: 10px;
+    margin-right: 1.4%;
+}
+.boxx-main{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+   justify-content: center;
+   margin-top: 3%;
+  
+   
+}
+.box-img{
+    width: 2vw;
+}
+.box-head{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.65em;
+    color: black;
+    font-weight: bolder;
+    margin-left: 0%;
+}
+.box-time{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.55em;
+    color: gray;
+    margin-left: 0%;
+}
+.box-loc{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.55em;
+    color: blue;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.boxx-2{
+    width: 90%;
+    margin-left: 2.7%;
+    border-bottom: 1px solid gray;
+}
+.box-bott{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.55em;
+}
+.box-bot{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.5em;
+}
+.box-icon{
+    color: blue;
+    width: 2vw;
+}
+.cnm{
+    display: flex;
+}
+.foot-1{
+    color: white;
+    position: relative;
+    left: 13.5%;
+    margin-left: 50PX;
+    padding: 5px;
+    font-size: small;
+}
+.foot-li{
+    text-decoration: none;
+    
+}
+.foot-2{
+    margin-left: 17%;
+    color: #6c757d;
+    font-size: smaller;
+    font-weight:200;
+}
+.foot-3{
+    margin-left: 34%;
+   color: #6c757d;
+   font-size: smaller;
+   font-weight: lighter;
+   
+   width: 15%;
+}
+.foot-4{
+    margin-left: 5%;
+   
+   
+    margin-top: 2%;
+}
+.foot-main{
+    /* margin-bottom: -1%;
+    margin-left: -1%;
+    margin-right: 0%; */
+    background-color: rgb(26, 26, 122);
+    width: 100%;
+}
+.foot-first{
+    border-bottom: 1px solid white;
+}
+.gigs-img{
+    width: 4vw;
+
+}
+.gigs-head{
+    font-size:0.7em;
+    font-weight: bold;
+    margin-top: 0%;
+
+}
+.gigs-hour{
+    font-size: .55em;
+    color: #9398a1;
+
+}
+.gigs-location{
+    display: flex;
+}
+.gigs-loc{
+    color: blue;
+    width: 0.8em;
+}
+.gigs-city{
+    margin-top: 0.2%;
+    margin-left: 4px;
+    font-size: 0.5em;
+    color: blue;
+}
+.gigs-foot{
+    margin-left: 4%;
+}
+.gigs-footer{
+    font-size: 0.5em;
+    font-weight: bold;
+}
+.gigs-body{
+    border-bottom:1px solid  gray;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.gigs-box{
+    border: 1px solid white;
+    width: 12%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(208, 208, 208);
+    margin-right: 1%;
+}
+.gigs-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 @media (max-width:576px){
        .nav-main{
