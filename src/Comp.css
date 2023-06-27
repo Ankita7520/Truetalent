@@ -341,7 +341,7 @@ span{
     border-radius: 5px;
     border: #ebecef;
     background-color: #ebecef;
-    
+    outline: none;
     }
     
 .password{
@@ -350,8 +350,7 @@ span{
     width: 300px;
     border-radius: 5px;
     border: #ebecef;
-    background-color: #ebecef;
-    margin-top: 7%;
+    background-color: #efeeee;
     
 }
 #MR{
@@ -419,16 +418,266 @@ span{
     font-size: small;
     left: 20px;
 }
-#ic-ai{
-    position: relative;
-    right:25px;
+.ic-ai{
+    background-color: #ebecef;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.ic-fi{
+    background-color: #ebecef;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 7%;
 }
 .cover{
     width: 500px;
     max-width: fit-content;
 }
+#reg{
+    border: 4px solid skyblue;
+}
+.reg-img{
+    width: 25vw;
+    margin-top: 7%;
+}
+.reg-head{
+    font-size: 1.5em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+}
+.reg-but{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid #14bc9a;
+
+}
+.reg-1{
+    width: 35vw;
+    height: 93vh;
+    background-color: #efeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-main{
+    display: flex;
+}
+.reg-candi{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 13vw;
+    height: 30vh;
+    text-align: center;
+    margin-left: 4%;
+}
+.reg-candi-img{
+    margin-top: 25%;
+}
+.reg-text{
+    font-size: 0.8em;
+}
+.reg-job{
+    font-size: 0.6em;
+    font-weight: 600;
+    color: gray;
+}
+.reg-2{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+.contact-listen{
+    position: relative;
+    left: 150px;
+}
+.contact-write{
+    font-weight: light;
+    font-size: small;
+    margin-left: 10%;
+    
+}
+.maya{
+    margin-left: 14%;
+    font-weight: 500;
+    position: relative;
+    right: 40px;
+}
+.img-main{
+    position: relative;
+   
+    width: 500px;
+}
+.loc{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+#num{
+    position: relative;
+    bottom: 60px;
+}
+#location{
+    position: relative;
+    bottom: 110px; 
+}
+.phn{
+    position: relative;
+    bottom: 98px;
+    left: 150px;
+}
+.con-img{
+    width: 25vw;
+    margin-top: 10%;
+}
+.con-head{
+    font-size: 1.5em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+}
+.con-txt{
+    font-size: 1em;
+    color: gray;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.mail-ic{
+    /* border: 1px solid rgb(199, 195, 195); */
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+    padding: 2px;
+    margin-right: 2%;
 
 
+}
+.mail{
+    text-align: center;
+    display: flex;
+    padding: 5px;
+}
+.phone{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+.phone-ic{
+    border: 1px solid rgb(207, 203, 203);
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(231, 227, 227);
+    padding: 2px;
+    margin-right: 2%;
+    position: relative;
+    right: 3px;
+}
+.numberr{
+    position: relative;
+    right: 8px;
+}
+.loc{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    left: -2px;
+    top:-5px;
+}
+.loc-ic{
+    border: 1px solid rgb(212, 208, 208);
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(215, 211, 211);
+    padding: 2px;
+    margin-right: 2%;
+}
+.borewell{
+    position: relative;
+    right: 3px;
+}
+.con-1{
+    margin-left: 15%;
+}
+.con-main{
+    display: flex;
+    margin-top: 5%;
+
+}
+.con-2{
+    border: 1px solid #F8F8F8;
+    width: 40vw;
+    height: 80vh;
+    background-color: #F8F8F8;
+}
+.con-2-body{
+    margin-left: 10%;
+    padding: 5px;
+}
+.con-inp1{
+    width: 80%;
+    height: 4vh;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.con-inp{
+    margin-left: 10%;
+}
+.con-inp2{
+    width: 12vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+.con-inp3{
+    width: 12vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.con-inp4{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.con-field{
+    font-size: 0.8em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.con-div1{
+    margin-top: 5%;
+}
+.con-div2{
+    margin-top: 6%;
+}
+.con-div3{
+    margin-top: 5%;
+}
+.con-div4{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.con-butt{
+    width: 25%;
+    font-size: 0.8em;
+    height: 4vh;
+    border: 1px solid #14bc9a;
+    border-radius: 5px;
+    background-color: #14bc9a;
+    color: white;
+}
+.con-2-head{
+    font-size: 1.5em;
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+     
+}
+.icon{
+    font-size:small;
+    font-weight:500;
+}
+.mage{
+    position: relative;
+    bottom: 10px;
+}
 @media (max-width:576px){
        .nav-main{
            height: 7vh;
@@ -527,16 +776,51 @@ span{
         height: 2.5vh;
        } */
        
-       .boxx-main{
-        width: 300%;
-        margin-left: -20%;
-        display: flex;
-        justify-content: center;
-       }
-       .box-head{
-        flex-basis:7px;
-        font-size: .2em;
-       }
+    .boxx-main{
+        width: 98%;
+        
+    }
+    .boxx-1{
+        width: 30%;
+        margin-top: 4%;
+        margin-right: 2%;
+    }
+    .box-img{
+        width: 40%;
+        margin-top: 2%;
+    }
+    .gigs-main{
+        width: 98%;
+    }
+    .gigs-box{
+        width: 30%;
+        margin-top: 3%;
+    }
+    .reg-main{
+        display: block;
+    }
+    .reg-1{
+        width: 100%;
+        height: 65vh;
+    }
+    .reg-img{
+        width: 60vw; 
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+    .reg-head{
+        margin-left: 7%;
+    }
+    .reg-but{
+        width: 90vw;
+    }
+    .reg-2{
+        display: block;
+        margin-left: 40%;
+        margin-top: 25%;
 
-
+    }
+    .reg-candi{
+        margin-top: 5%;
+    }
 }

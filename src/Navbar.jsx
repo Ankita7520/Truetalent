@@ -12,7 +12,8 @@ import img8 from "./images/13.png";
 import img14 from "./images/14.jpg";
 import {CiFacebook,CiTwitter} from "react-icons/ci";
 import {AiOutlineLinkedin,AiOutlineYoutube,AiOutlineInstagram} from "react-icons/ai"
-
+import {FaPhoneAlt} from "react-icons/fa";
+import {AiOutlineMail} from "react-icons/ai"
 
 
 
@@ -29,7 +30,7 @@ const Navbar=()=>{
             </div>
             <div className="bttn">
                 <button className="log" id="log"><a href="/login">Login</a></button>
-                <button className="log">Register</button>
+                <button className="log"><a href="/register">Register</a></button>
             </div>
             </div>
         </nav>
@@ -326,7 +327,7 @@ const Navbar=()=>{
                    <div className="foot-first">
                    <a href="" className="foot-1">Home</a>
                         <a href="" className="foot-1">About Us</a>
-                        <a href="" className="foot-1">Contact Us</a>
+                        <a href="/Contactus" className="foot-1">Contact Us</a>
                         <a href="" className="foot-1">Giveaway</a>
                         <a href="" className="foot-1">Blog</a>
                         <a href="" className="foot-1">TermsofUse&PrivacyPolicy</a>
