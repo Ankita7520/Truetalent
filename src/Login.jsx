@@ -11,7 +11,24 @@ const Login =()=>{
         setpassword(!pass)
     }
     return(
-        <div style={{display:"flex"}}>
+        <div>
+             <nav>
+            <div className="nav-main">
+            <div className="img-main">
+                <img src="https://truetalent.io/static/media/logo.e8c72fdf.svg" alt="" className="img"/>
+            </div>
+            <div className="tt-main">
+                <a href="" className="tt" id="tt1">TT Essential</a>
+                <a href="" className="tt">TT Gig</a>
+            </div>
+            <div className="bttn">
+                <button className="log" id="log"><a href="/login">Login</a></button>
+                <button className="log"><a href="/register">Register</a></button>
+            </div>
+            </div>
+        </nav>
+        <div style={{display:"flex"}} className="tt-flex">
+            
             <div className="reg">
                 <img src="https://truetalent.io/Assets/images/login_banner.png?1" alt="" className="cover"/>
                 <div>
@@ -51,6 +68,7 @@ const Login =()=>{
                     </div>
                 </div>
 
+        </div>
         </div>
     )
 }
