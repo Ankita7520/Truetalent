@@ -36,7 +36,7 @@ const Employer=()=>{
             <h1 className="emp-head1">Create TrueTalent Account</h1>
           </div>
           <div style={{display:"flex"}}>
-            <div>
+            <div className="fs">
               <input type="text" placeholder="First Name" className="emp-inp1"/>
             </div>
             <div>
@@ -66,6 +66,7 @@ const Employer=()=>{
             <div className="emp-div-head">
               <h1 className="emp-head1">Company Details</h1>
             </div>
+            <div className="company-details">
             <div>
               <input type="text" placeholder="Company Name" className="emp-inp2"/>
             </div>
@@ -120,6 +121,7 @@ const Employer=()=>{
             </div>
             <div className="emp-div-butt">
               <button className="emp-butt1">Create Account</button>
+              </div>
             </div>
          </div>
        </div>

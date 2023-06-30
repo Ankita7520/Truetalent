@@ -7,6 +7,7 @@ import Register from "./Register";
 import Contactus from './Contactus'
 import Candidate from "./Candidate";
 import Employer from "./Employer";
+import Aboutus from "./Aboutus";
 
 
 
@@ -21,10 +22,11 @@ const App=()=>{
             <Route path="/Contactus" element={<Contactus></Contactus>}></Route>
             <Route path="/candidate" element={<Candidate></Candidate>}></Route>
             <Route path="/employer" element={<Employer></Employer>}></Route>
+            <Route path="/aboutus" element={<Aboutus></Aboutus>}></Route>
         </Routes>
        </BrowserRouter>
-      
-         {/* <Flask></Flask> */}
+{/*       
+         <Flask></Flask> */}
     </div>
     )
 }
