@@ -1006,6 +1006,72 @@ input[type=text]::-webkit-input-placeholder
 .dream{
     margin-left: 7%;
 }
+.dream-job{
+    font-size: 1.3em;
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+    /* font-weight: 1000; */
+    font-weight:bold ;
+}
+.more-about{
+        width: 25vw;
+        height: 5vh;
+        border: 1px solid #14bc9a;
+        border-radius: 5px;
+        background-color: #f7f7f7;
+        color: #14bc9a;
+        font-weight: bolder;
+}
+.truu{
+    width: 35vw;
+    height: 93vh;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+#reset{
+    text-align: center;
+    margin-left: 20%;
+    position: relative;
+    bottom: 480px;
+   
+}
+.link{
+    font-size: 0.6em;
+    margin-right: 20%;
+}
+.add{
+    width: 32vw;
+    height: 7vh;
+    border: 2px solid hsl(0, 0%, 97%);
+    border-radius: 6px;
+    background-color: #f7f7f7;
+    margin-top: 5%;
+    outline: none;
+    
+}
+.send{
+    background-color: #14bc9a;
+    width:32vw;
+    height: 6vh;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    
+}
+.backk{
+    font-size: 0.8em;
+    color: #14bc9a;
+    margin-top:4% ;
+}
+.keyboard{
+    margin-right:10% ;
+    position: relative;
+    bottom: 25px;
+    color: #14bc9a;
+    
+}
 @media (max-width:576px){
        .main{
         width: 100%;
@@ -1161,6 +1227,75 @@ input[type=text]::-webkit-input-placeholder
     .reg-candi{
         margin-top: 5%;
     }
+    .can-main{
+        display: block;
+    }
+    .can-img{
+        margin-top: 0%;
+        width: 70vw;
+        margin-top: 2%;
+    }
+    .can-1{
+       width: 100%;
+      height: 75vh;
+
+    }
+    .can-head{
+        font-size:0.82em;
+    }
+    .can-butt{
+        width: 80%;
+        font-size: 0.7em;
+    }
+    .can-2{
+        margin-top: 15%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .can-head2{
+        font-size: 0.85em;
+    }
+    .can-inp1{
+        width: 70%;
+        height: 4.5vh;
+       
+    }
+    .can-inp2{
+        width: 50vw;
+        height: 4.5vh;
+        margin-left: 3%;
+    }
+    .can-inp4{
+        width: 22vw;
+        height: 4.9vh;
+        margin-left: 26%;
+    }
+    .can-inp3{
+        height: 4vh;
+        
+    }
+    .can-inp5{
+        margin-left: 21%;
+    }
+    .can-butt1{
+        width: 50vw;
+        height: 4.5vh;
+    }
+    .can-butt2{
+        width: 50vw;
+        height: 4.5vh;
+    }
+    .can-inp3{
+        width: 70%;
+    }
+   #pw{
+    margin-right: 15%;
+   }
+   .can-inp1{
+    margin-left: 5%;
+   }
+
+
 }
 @media (max-width:575px){
     .trust-body{
@@ -1172,5 +1307,7 @@ input[type=text]::-webkit-input-placeholder
     .gigs-box{
         width: 45%;
     }
+    
 
 }
+

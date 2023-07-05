@@ -1,38 +1,26 @@
 import React from "react";
-import {useNavigate} from "react-router-dom"
-import "./Comp.css";
 import {SlMagnifier,SlLocationPin} from "react-icons/sl";
+
 import img1 from "./images/one.jpg";
 import img2 from "./images/two.jpg";
-import img3 from "./images/six.jpg";
 import img4 from "./images/Np.png";
-import img5 from "./images/five.jpg";
 import img6 from "./images/10.png";
 import img7 from "./images/12.png";
-import img8 from "./images/13.png";
-// import img14 from "./images/14.jpg"
-// import {CiFacebook,CiTwitter} from "react-icons/ci";
-// import {AiOutlineLinkedin,AiOutlineYoutube,AiOutlineInstagram} from "react-icons/ai"
-// import {FaPhoneAlt} from "react-icons/fa";
-// import {AiOutlineMail} from "react-icons/ai"
+import img3 from "./images/six.jpg";
+import img8 from "./images/13.png"
+import img5 from "./images/five.jpg";
 
-
-
-const Navbar=()=>{
-    let navigate=useNavigate();
-    let gigu=()=>{
-         navigate("/Gigs")
-    }
+const Gigs=()=>{
     return(
-    <div className="main">
+        <div className="main">
         <nav>
             <div className="nav-main">
             <div className="img-main">
                 <img src="https://truetalent.io/static/media/logo.e8c72fdf.svg" alt="" className="img"/>
             </div>
             <div className="tt-main">
-                <a href="" className="tt" id="tt1">TT Essential</a>
-                <a href="" className="tt" onClick={gigu}>TT Gig</a>
+                <a href="" className="tt">TT Essential</a>
+                <a href="" className="tt" id="tt1">TT Gig</a>
             </div>
             <div className="bttn">
                 <button className="log" id="log"><a href="/login">Login</a></button>
@@ -43,7 +31,7 @@ const Navbar=()=>{
         <div className="banner-main">
             <div className="banner">
             <div className="body">
-            <h1 className="right">Get the <span>Right Job</span> You Deserve</h1>
+            <h1 className="right">Unleash Your TrueTalent with Every Gig</h1>
             <p className="carrer">Your next carrer move starts here</p>
         </div>
         <div className="btt-main">
@@ -345,13 +333,7 @@ const Navbar=()=>{
                 </footer>
 
             </div> */}
-            
             </div>
-
-     
-     )
-    
+    )
 }
-
-
-export default Navbar
+export default Gigs

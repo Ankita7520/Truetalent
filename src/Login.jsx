@@ -3,12 +3,18 @@ import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc"
 import {AiOutlineMail} from "react-icons/ai"
 import {FiLock,FiEye} from "react-icons/fi"
+import { useNavigate } from "react-router-dom";
 
 
 const Login =()=>{
     let[pass,setpassword]=useState(true)
     let password=()=>{
         setpassword(!pass)
+    }
+    let navigate=useNavigate()
+
+    let forgot=()=>{
+        navigate("/forgot")
     }
     return(
         <div>
@@ -54,7 +60,7 @@ const Login =()=>{
                         </div>
                         <div style={{display:"flex"}}>
                         <input type="checkbox" className="RM"/> <label htmlFor="" id="MR">Remember Me</label><br></br>
-                        <h5 className="fg">Forgot Password?</h5>
+                        <h5 className="fg" onClick={forgot}>Forgot Password?</h5>
                         </div>
 
                         

@@ -1,13 +1,15 @@
 import React from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Navbar from "./Navbar";
-import Flask from "./Flask";
 import Login from "./Login";
 import Register from "./Register";
 import Contactus from './Contactus'
 import Candidate from "./Candidate";
 import Employer from "./Employer";
 import Aboutus from "./Aboutus";
+import Gigs from "./Gigs";
+import Forgot from "./Forgot";
+
 
 
 
@@ -22,11 +24,13 @@ const App=()=>{
             <Route path="/Contactus" element={<Contactus></Contactus>}></Route>
             <Route path="/candidate" element={<Candidate></Candidate>}></Route>
             <Route path="/employer" element={<Employer></Employer>}></Route>
-            <Route path="/aboutus" element={<Aboutus></Aboutus>}></Route>
+             <Route path="/aboutus" element={<Aboutus></Aboutus>}></Route> 
+            <Route path="/gigs" element={<Gigs></Gigs>}></Route>
+            <Route path="/forgot" element={<Forgot></Forgot>}></Route>
         </Routes>
        </BrowserRouter>
-{/*       
-         <Flask></Flask> */}
+      
+         {/* <Flask></Flask> */}
     </div>
     )
 }

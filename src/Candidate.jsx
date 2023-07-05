@@ -1,8 +1,8 @@
 import React from "react";
 import {AiOutlineEye} from "react-icons/ai"
 import {FcGoogle} from "react-icons/fc"
-import {CiFacebook,CiTwitter} from "react-icons/ci";
-import {AiOutlineLinkedin,AiOutlineYoutube,AiOutlineInstagram} from "react-icons/ai"
+// import {CiFacebook,CiTwitter} from "react-icons/ci";
+// import {AiOutlineLinkedin,AiOutlineYoutube,AiOutlineInstagram} from "react-icons/ai"
 
 const Candidate=()=>{
     return(
@@ -30,7 +30,7 @@ const Candidate=()=>{
                 <div>
                     <h1 className="can-head">Amazing <span>career opportunities...</span> just a click<br></br>away!!</h1>
                 </div>
-                <div>
+                <div className="can-butt-div">
                     <button className="can-butt">Learn more about TrueTalent</button>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const Candidate=()=>{
                     <AiOutlineEye></AiOutlineEye>
                     </div>
                     <div>
-                        <input type="password" placeholder="Confirm Password" className="can-inp1"/>
+                        <input type="password" placeholder="Confirm Password" className="can-inp1" id="pw"/>
                     </div>
                 </div>
                 <div>
@@ -75,7 +75,7 @@ const Candidate=()=>{
             </div>
         </div>
         <div>
-        <div className="foot-main">
+        {/* <div className="foot-main">
                 <footer>
                    <div className="foot-first">
                    <a href="" className="foot-1">Home</a>
@@ -91,7 +91,7 @@ const Candidate=()=>{
                     </div>
                 </footer>
 
-            </div>
+            </div> */}
         </div>
 
         </div>
