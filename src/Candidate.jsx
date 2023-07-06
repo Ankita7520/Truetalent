@@ -1,10 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {AiOutlineEye} from "react-icons/ai"
 import {FcGoogle} from "react-icons/fc"
 // import {CiFacebook,CiTwitter} from "react-icons/ci";
 // import {AiOutlineLinkedin,AiOutlineYoutube,AiOutlineInstagram} from "react-icons/ai"
 
 const Candidate=()=>{
+    let navigate=useNavigate();
+    let about=()=>{
+         navigate("/Aboutus")
+    }
     return(
         <div>
             <nav>
@@ -31,7 +36,7 @@ const Candidate=()=>{
                     <h1 className="can-head">Amazing <span>career opportunities...</span> just a click<br></br>away!!</h1>
                 </div>
                 <div className="can-butt-div">
-                    <button className="can-butt">Learn more about TrueTalent</button>
+                    <button className="can-butt" onClick={about}>Learn more about TrueTalent</button>
                 </div>
             </div>
             <div className="can-2">

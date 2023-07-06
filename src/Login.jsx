@@ -16,6 +16,9 @@ const Login =()=>{
     let forgot=()=>{
         navigate("/forgot")
     }
+    let giga=()=>{
+        navigate("/Gigs")
+    }
     return(
         <div>
              <nav>
@@ -25,7 +28,7 @@ const Login =()=>{
             </div>
             <div className="tt-main">
                 <a href="" className="tt" id="tt1">TT Essential</a>
-                <a href="" className="tt">TT Gig</a>
+                <a href="" className="tt" onClick={giga}>TT Gig</a>
             </div>
             <div className="bttn">
                 <button className="log" id="log"><a href="/login">Login</a></button>

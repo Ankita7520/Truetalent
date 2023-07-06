@@ -63,7 +63,7 @@ const Register=()=>{
                         <a href="/Contactus" className="foot-1">Contact Us</a>
                         <a href="" className="foot-1">Giveaway</a>
                         <a href="" className="foot-1">Blog</a>
-                        <a href="" className="foot-1">TermsofUse&PrivacyPolicy</a>
+                        <a href="/policy" className="foot-1">TermsofUse&PrivacyPolicy</a>
                    </div>
                     <div style={{display:"flex"}}>
                         <p className="foot-2">All rights reserved@2023FindProTechnologySolutionsPvt.Ltd</p>

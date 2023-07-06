@@ -1,7 +1,8 @@
 import React from "react";
-import {AiOutlineEye} from "react-icons/ai"
+import {AiOutlineEye} from "react-icons/ai";
 
 const Employer=()=>{
+  
     return(
         <div>
 
@@ -47,7 +48,7 @@ const Employer=()=>{
             <input type="text" placeholder="Business Email Address" className="emp-inp2"/>
           </div>
           <div>
-            <input type="number" placeholder="Phone Number" className="emp-inp2"/>
+          <input type="number" placeholder="Phone number" className="emp-inp2"/>
           </div>
           <div style={{display:"flex"}} className="emp-div-main">
             <div className="emp-div">

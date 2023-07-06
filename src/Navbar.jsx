@@ -23,6 +23,9 @@ const Navbar=()=>{
     let gigu=()=>{
          navigate("/Gigs")
     }
+    let magn=()=>{
+        navigate("/Filter")
+    }
     return(
     <div className="main">
         <nav>
@@ -64,7 +67,7 @@ const Navbar=()=>{
                     <input type="text" placeholder="City" className="inp" id="inp-skill"/>
                     </div>
                     <div>
-                        <button className="input-bttn"><SlMagnifier></SlMagnifier>Search</button>
+                        <button className="input-bttn" onClick={magn}><SlMagnifier></SlMagnifier>Search</button>
                     </div>
                 </div>
             </div>

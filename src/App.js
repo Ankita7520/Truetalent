@@ -9,6 +9,8 @@ import Employer from "./Employer";
 import Aboutus from "./Aboutus";
 import Gigs from "./Gigs";
 import Forgot from "./Forgot";
+import Policy from "./Policy";
+import Filter from "./Filter"
 
 
 
@@ -27,6 +29,8 @@ const App=()=>{
              <Route path="/aboutus" element={<Aboutus></Aboutus>}></Route> 
             <Route path="/gigs" element={<Gigs></Gigs>}></Route>
             <Route path="/forgot" element={<Forgot></Forgot>}></Route>
+            <Route path="/policy" element={<Policy></Policy>}></Route>
+            <Route path="Filter" element={<Filter></Filter>}></Route>
         </Routes>
        </BrowserRouter>
       
