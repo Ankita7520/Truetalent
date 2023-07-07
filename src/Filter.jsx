@@ -4,7 +4,7 @@ import {SlMagnifier,SlLocationPin} from "react-icons/sl";
 const Filter=()=>{
     return(
         <div>
-            <div>
+            <div >
       <div className="sec-1">
         <div className="sec-div-1" id="sec-div-1">
         <SlMagnifier></SlMagnifier>
@@ -17,8 +17,8 @@ const Filter=()=>{
         </div>
       </div>
       <div className="sec-2" style={{display:"flex"}}>
-      <div className="sec-2-0">
-          <div className="sec-div1">
+      <div className="sec-2-0" style={{fontFamily:"system-ui,sans-serif"}} >
+          <div className="sec-div1" >
              <h3 className="filter-search">Filter Search</h3>
              <button className="sec-clear">Clear All</button>
           </div>

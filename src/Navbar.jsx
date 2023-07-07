@@ -26,6 +26,7 @@ const Navbar=()=>{
     let magn=()=>{
         navigate("/Filter")
     }
+    
     return(
     <div className="main">
         <nav>

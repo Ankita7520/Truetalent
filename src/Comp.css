@@ -363,6 +363,7 @@ span{
     border-radius: 5px;
     border: #ebecef;
     background-color: #efeeee;
+    outline: none;
     
 }
 #MR{
@@ -386,7 +387,7 @@ span{
     
 }
 .SI{
-    width: 320px;
+    width: 340px;
     margin: 4%;
     border-radius: 5px;
     background-color: #14bc9a;
@@ -442,6 +443,7 @@ span{
     border: 1px solid white;
     border-radius: 5px;
     margin-top: 7%;
+    border: none;
 }
 .cover{
     width: 450px;
@@ -885,6 +887,7 @@ span{
     background-color: #f7f7f7;
     border: 1px solid #f7f7f7;
     margin-top: 7%;
+    outline: none;
 }
 .emp-inp5{
     width: 10.3vw;
@@ -1105,13 +1108,31 @@ input[type=text]::-webkit-input-placeholder
     display: flex;
 }
 .sec-2-0{
-    border: 1px solid #f9f9fa;
+    /* border: 1px solid #f9f9fa;
     background-color: #f9f9fa;
     border-radius: 15px;
     width: 20%;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 5%; */
+    border: 1px solid gray;
+    /* width: 300px;
+    height: 1616px; */
+    border-radius: 10px;
+    /* margin-top: 50px;
+    margin-left: 230px; */
+    background-color: rgb(245, 241, 241);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10.5px;
+    font-weight:bold;
+    color: #747A8D;
+    position: relative;
+    left: 60px;
+    top: 90px;
+    width:290px
+
+
 }
+
 .sec-inp2{
     width: 80%;
     height: 4vh;
@@ -1150,7 +1171,8 @@ input[type=checkbox]{
 }
 
 .sec-tab{
-  margin-left: 60%;
+  margin-left: 66%;
+  
 }
 .sec-img-div{
     position: relative;
@@ -1193,9 +1215,10 @@ input[type=checkbox]{
 .sec-main{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     position: relative;
     top: 50px;
+    left: 120px;
 }
 .sec-filter{
     position: relative;
@@ -1203,9 +1226,11 @@ input[type=checkbox]{
 }
 .search-res{
     position: relative;
-    left: 15px;
+    /* left: 90px; */
     bottom: 10px;
     font-weight:500;
+    left: 130px;
+    
 }
 .sortt{
     font-size:0.7em;
@@ -1225,6 +1250,18 @@ input[type=checkbox]{
     position: relative;
     left: 15px;
     font-weight: 500;
+}
+.inputt{
+    width: 20.8vw;
+    height: 5vh;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-top: 7%;
+}
+.input9{
+    background-color:white;
+    
 }
 
 /* .cba{

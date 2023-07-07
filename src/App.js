@@ -10,7 +10,8 @@ import Aboutus from "./Aboutus";
 import Gigs from "./Gigs";
 import Forgot from "./Forgot";
 import Policy from "./Policy";
-import Filter from "./Filter"
+import Filter from "./Filter";
+import Add from "./Add";
 
 
 
@@ -31,6 +32,7 @@ const App=()=>{
             <Route path="/forgot" element={<Forgot></Forgot>}></Route>
             <Route path="/policy" element={<Policy></Policy>}></Route>
             <Route path="Filter" element={<Filter></Filter>}></Route>
+            <Route path="/Add" element={<Add></Add>}></Route>
         </Routes>
        </BrowserRouter>
       

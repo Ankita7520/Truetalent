@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import {AiOutlineEye} from "react-icons/ai";
+import PhoneInput from "react-phone-input-2";
+import 'react-phone-input-2/lib/style.css';
+import {FiLock} from "react-icons/fi"
 
 const Employer=()=>{
-  
+  const [PhoneNumber , setPhoneNumber] = useState('');
+    const [valid , setValid] = useState(true);
+
+    const handleChange =(value)=>{
+        setPhoneNumber(value);
+        setValid(validatePhoneNumber(value));
+    }
+
+    const validatePhoneNumber =(phoneNumber)=>{
+        const phoneNumberPattern =/^\d()$/;
+        return phoneNumberPattern.test(phoneNumber)
+    }
+    let[pass,setpassword]=useState(true)
+    let password=()=>{
+        setpassword(!pass)
+    }
+    
     return(
         <div>
 
@@ -47,13 +66,23 @@ const Employer=()=>{
           <div>
             <input type="text" placeholder="Business Email Address" className="emp-inp2"/>
           </div>
-          <div>
-          <input type="number" placeholder="Phone number" className="emp-inp2"/>
-          </div>
+          
+          
+          <PhoneInput  className="input9"
+                country={'in'}
+                value={PhoneNumber}
+                onChange={handleChange}
+                inputProps={{
+                    required: true,
+                }}
+                />
+                
+          
           <div style={{display:"flex"}} className="emp-div-main">
             <div className="emp-div">
-              <input type="password" placeholder="Password" className="emp-inp3"/>
-              <AiOutlineEye></AiOutlineEye>
+              {/* <FiLock className="fl"></FiLock> */}
+              <input type={pass?"password":"text"} placeholder="Password" className="emp-inp3"/>
+              <AiOutlineEye id="ic-ai" onClick={password}></AiOutlineEye>
             </div>
             <div>
               <input type="password" placeholder="Confirm Password" className="emp-inp1"/>

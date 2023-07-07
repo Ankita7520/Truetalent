@@ -1,4 +1,3 @@
-// import { floatButtonPrefixCls } from "antd/es/float-button/FloatButton";
 import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc"
 import {AiOutlineMail} from "react-icons/ai"
@@ -6,8 +5,11 @@ import {FiLock,FiEye} from "react-icons/fi"
 import { useNavigate } from "react-router-dom";
 
 
-const Login =()=>{
+const Login=()=>{
     let[pass,setpassword]=useState(true)
+
+    const [email , setemail] = useState("")
+    const [pasword, setpasword] = useState("")
     let password=()=>{
         setpassword(!pass)
     }
@@ -18,6 +20,19 @@ const Login =()=>{
     }
     let giga=()=>{
         navigate("/Gigs")
+    }
+
+    let handlesubmit=()=>{
+        if (email === "") {
+            alert("Please enter Email")
+            return
+        }
+        if (pasword === "") {
+            alert("Please enter Password")
+        } else {
+            alert("Login Successfull")
+        }
+        
     }
     return(
         <div>
@@ -51,34 +66,33 @@ const Login =()=>{
                     <h3 className="inlog">Log in to True Talent</h3>
                     <div>
                         <div className="ic-ai">
-                         
                         <AiOutlineMail className="ao" ></AiOutlineMail>
                       
-                        <input type="email" placeholder="Email" className="email" /><br></br>
-                        </div>
-                        <div className="ic-fi">
-                        <FiLock className="fl"></FiLock>
-                        <input type={pass?"text": "password"}  placeholder="Password" className="password"/>
-                        <FiEye id="ic-ai" onClick={password}></FiEye>
-                        </div>
-                        <div style={{display:"flex"}}>
-                        <input type="checkbox" className="RM"/> <label htmlFor="" id="MR">Remember Me</label><br></br>
-                        <h5 className="fg" onClick={forgot}>Forgot Password?</h5>
-                        </div>
+                      <input type="email" placeholder="Email" className="email" onChange={e=>setemail(e.target.value)}/><br></br>
+                      </div>
+                      <div className="ic-fi">
+                      <FiLock className="fl"></FiLock>
+                      <input type={pass?"text": "password"}  placeholder="Password" className="password" onChange={e=>setpasword(e.target.value)}/>
+                      <FiEye id="ic-ai" onClick={password}></FiEye>
+                      </div>
+                      <div style={{display:"flex"}}>
+                      <input type="checkbox" className="RM"/> <label htmlFor="" id="MR">Remember Me</label><br></br>
+                      <h5 className="fg" onClick={forgot}>Forgot Password?</h5>
+                      </div>
 
-                        
-                    </div>
-                    <div>
-                        <button className="SI">Sign in</button><br></br>
-                        <h5 className="or"> ____________________________OR________________________________</h5>
-                        <button className="google">
-                            <FcGoogle className="gg"></FcGoogle>Continue with Google</button>
-                        <h4 className="JS">(For Job seekers only)</h4>
-                    </div>
-                </div>
+                      
+                  </div>
+                  <div>
+                      <button className="SI" onClick={handlesubmit}>Sign in</button><br></br>
+                      <h5 className="or"> ____________________________OR___________________________</h5>
+                      <button className="google">
+                          <FcGoogle className="gg"></FcGoogle>Continue with Google</button>
+                      <h4 className="JS">(For Job seekers only)</h4>
+                  </div>
+              </div>
 
-        </div>
-        </div>
-    )
+      </div>
+      </div>
+  )
 }
 export default Login
