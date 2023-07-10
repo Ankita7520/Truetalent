@@ -12,6 +12,8 @@ import Forgot from "./Forgot";
 import Policy from "./Policy";
 import Filter from "./Filter";
 import Add from "./Add";
+import Fetch from "./Flask";
+import Box from "./Box"
 
 
 
@@ -33,10 +35,11 @@ const App=()=>{
             <Route path="/policy" element={<Policy></Policy>}></Route>
             <Route path="Filter" element={<Filter></Filter>}></Route>
             <Route path="/Add" element={<Add></Add>}></Route>
+            <Route path="/box" element={<Box></Box>}></Route>
         </Routes>
        </BrowserRouter>
-      
-         {/* <Flask></Flask> */}
+{/*       
+        <Fetch></Fetch> */}
     </div>
     )
 }

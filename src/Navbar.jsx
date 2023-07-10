@@ -10,11 +10,13 @@ import img5 from "./images/five.jpg";
 import img6 from "./images/10.png";
 import img7 from "./images/12.png";
 import img8 from "./images/13.png";
-// import img14 from "./images/14.jpg"
-// import {CiFacebook,CiTwitter} from "react-icons/ci";
-// import {AiOutlineLinkedin,AiOutlineYoutube,AiOutlineInstagram} from "react-icons/ai"
-// import {FaPhoneAlt} from "react-icons/fa";
-// import {AiOutlineMail} from "react-icons/ai"
+import img9 from "./images/wppp.png"
+
+import img14 from "./images/14.jpg"
+import {CiFacebook,CiTwitter} from "react-icons/ci";
+import {AiOutlineLinkedin,AiOutlineYoutube,AiOutlineInstagram} from "react-icons/ai"
+import {FaPhoneAlt} from "react-icons/fa";
+import {AiOutlineMail} from "react-icons/ai"
 
 
 
@@ -332,7 +334,11 @@ const Navbar=()=>{
            </div>
         </div>
       </div>
-      {/* <div className="foot-main">
+      <div>
+       <a href="https://wa.me/9731509731" target="_blank"><img src={img9} alt="" className="wp-ic"/></a>
+      </div>
+     
+      <div className="foot-main">
                 <footer>
                    <div className="foot-first">
                    <a href="" className="foot-1">Home</a>
@@ -348,7 +354,7 @@ const Navbar=()=>{
                     </div>
                 </footer>
 
-            </div> */}
+            </div>
             
             </div>
 

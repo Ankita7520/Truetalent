@@ -1263,6 +1263,75 @@ input[type=checkbox]{
     background-color:white;
     
 }
+.wp-ic{
+    margin-left: 95%;
+    position: fixed;
+    bottom: 15px;
+    width:40px;
+    filter: contrast(130%) brightness(90%)
+   
+}
+.table{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.8em;
+    border-collapse: collapse;
+}
+.tr{
+    border-bottom: 1px solid gray;
+}
+.tab-body1{
+   height: 10vh;
+   font-size: small;
+   font-weight: 300;
+   
+}
+.tab-data1{
+    font-weight: 400;
+}
+.tab-body:hover{
+     background-color: #eaecee;
+     border-left: 5px solid #14bc9a;
+}
+.tab-job{
+    width: 15%;
+    text-align: left;
+    
+}
+.tab-skill{
+    width: 25%;
+    
+    text-align: left;
+}
+.tab-loc{
+    width: 20%;
+    
+    text-align: left;
+
+}
+.tab-comp{
+   
+    width: 15%;
+    text-align: left;
+}
+.tab-type{
+    
+    width: 15%;
+    text-align: left;
+}
+.tab-exp{
+   
+    width: 10%;
+    text-align: left;
+}
+tbody{
+    text-align: left;
+}
+.tab-main{
+    /* background-color: #14bc9a; */
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
 
 /* .cba{
     font-size: small;

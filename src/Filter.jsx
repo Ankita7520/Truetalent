@@ -1,7 +1,24 @@
 import React from "react";
+import { useState } from "react";
 import {SlMagnifier,SlLocationPin} from "react-icons/sl";
+// import Valid from "./Validation";
+// import Log from "./Log";
+import Box from "./Box";
+import Table from "./Table"
 
 const Filter=()=>{
+
+  const [table , settable] = useState(true)
+
+
+
+  let tablehandler=()=>{
+    settable(false)
+
+  }
+  let boxhandler=()=>{
+    settable(true)
+  }
     return(
         <div>
             <div >
@@ -106,244 +123,15 @@ const Filter=()=>{
           <div className="sec-tab">
            <h4 className="sortt"> Sort by: Newest First</h4>
            <div style={{display:"flex"}} className="sec-img-div">
-           <img src="https://truetalent.io/Assets/svgs/list_view_icon.svg" alt="" className="sec-img1"/>
-           <img src="https://truetalent.io/Assets/svgs/grid_view_icon.svg" alt="" className="sec-img2"/>
+           <img src="https://truetalent.io/Assets/svgs/list_view_icon.svg" alt="" className="sec-img1" onClick={boxhandler}/>
+           <img src="https://truetalent.io/Assets/svgs/grid_view_icon.svg" alt="" className="sec-img2" onClick={tablehandler}/>
            </div>
           </div>
           </div>
           <div>
-            <div className="sec-main">
-              <div className="sec-box">
-                  <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-                  
-              </div>
-              <div className="sec-box">
-                  <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-                  
-              </div>
-              <div className="sec-box">
-                  <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-                  
-              </div>
-              <div className="sec-box">
-                  <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-                  
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-              </div>
-              <div className="sec-box">
-              <div className="sec-box1">
-                  <h1 className="sec-head">Adobe Experience Manager(AEM)</h1>
-                  <p className="sec-contact">Contact-to-Hire.5Y-5Y</p>
-                  <div className="sec-city">
-                    <SlLocationPin></SlLocationPin>
-                    <p className="sec-place">United States of America,USA</p>
-                  </div>
-                 
-                  </div>
-                  <div className="sec-box2">
-                  <h2 className="sec-head1">Rumba Solutions</h2>
-                  </div>
-             
-              </div>
-              
-            </div>
+              {
+               table?<Box></Box>:<Table></Table>
+              }
           </div>
         </div>
         
