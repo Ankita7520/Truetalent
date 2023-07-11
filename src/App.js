@@ -13,7 +13,9 @@ import Policy from "./Policy";
 import Filter from "./Filter";
 import Add from "./Add";
 import Fetch from "./Flask";
-import Box from "./Box"
+import Box from "./Box";
+import 'react-phone-input-2/lib/style.css';
+
 
 
 

@@ -46,16 +46,16 @@ const Employer=()=>{
         <div>
           <h1 className="emp-head"><span>Discover curated geniuses </span>for your hiring <br />needs!!</h1>
         </div>
-        <div>
+        <div className="emp-divv-butt">
           <button className="emp-butt">Learn more about TrueTalent</button>
         </div>
        </div>
        <div className="emp-2">
-         <div className="emp-2.1">
+         <div className="emp-2-1">
           <div className="emp-div-head">
             <h1 className="emp-head1">Create TrueTalent Account</h1>
           </div>
-          <div style={{display:"flex"}}>
+          <div style={{display:"flex"}} className="emp-first">
             <div className="fs">
               <input type="text" placeholder="First Name" className="emp-inp1"/>
             </div>
@@ -69,6 +69,7 @@ const Employer=()=>{
           
           
           <PhoneInput  className="input9"
+          containerStyle={{width: '50px'}}
                 country={'in'}
                 value={PhoneNumber}
                 onChange={handleChange}

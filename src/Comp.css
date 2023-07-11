@@ -1561,6 +1561,76 @@ tbody{
    .can-inp1{
     margin-left: 5%;
    }
+   .emp-main{
+    display: block;
+}
+   .emp-1{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 15%;
+   }
+   .emp-img{
+    width: 50%;
+    margin-top: 1%;
+   }
+   .emp-head{
+    font-size: 0.85em;
+   }
+   .emp-butt{
+    width: 80%;
+   }
+   .emp-divv-butt{
+    margin-bottom: 3%;
+   }
+   .emp-2{
+    margin-top: 5%;
+   
+    margin-left: 0%;
+    text-align: center;
+   }
+   .emp-2-1{
+    text-align: center;
+   }
+   .emp-inp2{
+    width: 55%;
+    
+    text-align: center;
+   
+   }
+   .emp-div-main{
+    
+    display: flex;
+    justify-content: center;
+   }
+   .input9{
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 22%;
+    margin-top: 7%
+   }
+   .emp-inp3{
+    width: 60%;
+   }
+   .emp-div{
+    width: 25%;
+   }
+   .emp-first{
+    display: flex;
+    justify-content: center;
+   }
+   .emp-inp5{
+    width: 100%;
+    margin-left: 12%;
+   }
+   #emp-inp1{
+    width: 72%;
+   }
+   .emp-head1{
+    font-size: 0.9em;
+    
+   }
+   
+
 
 
 }
@@ -1574,6 +1644,7 @@ tbody{
     .gigs-box{
         width: 45%;
     }
+    
     
 
 }
