@@ -1331,6 +1331,313 @@ tbody{
     margin-left: 6%;
     margin-top: 5%;
 }
+.update{
+    /* border: 1px solid black; */
+    /* background-color:#2bbc07; */
+    /* border: 1px solid rgb(5, 4, 4); */
+    width:100vw;
+    height: 7vh;
+    position: relative;
+    top: 30px;
+    left:60px;
+    border: none;
+    color:#f3f3f8;
+    font-weight: bolder;
+    display: flex;
+   
+}
+.up{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.fabolt{
+    position: relative;
+    bottom: 60px;
+    left: 7px;
+    
+
+}
+.dates{
+    position: relative;
+left:30px;
+font-size: larger;
+bottom: 15px;
+background-color: #06b995;
+
+}
+.content{
+    /* overflow: auto; */
+    width:60vw;
+    color: #081101;
+    /* border: 2px solid black; */
+    margin-left:2%;
+    /* background-color: #fd815e; */
+    height: 7vh;
+
+    
+}
+.marque{
+    width:100%;
+    /* position: relative;
+    left: 20px; */
+    border: 2px solid black;
+    margin-left:10%;
+    background-color: #07a40c;
+    /* background-color:#9398a1; */
+}
+.fst-img{
+    width: 20vw;
+    margin-left:50%;
+    height:30vh;
+}
+.interview1{
+    position: relative;
+    right: 280px;
+    left: 210px;
+    bottom: 60px;
+    background-color: #06b995;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 30px;
+
+}
+.good-money{
+    margin-left:51%;
+    font-size: medium;
+    position: relative;
+    bottom: 70px;
+    color: #b6b6bb;
+
+}
+.good-moneyyy{
+    margin-left:20%;
+    font-size: medium;
+    position: relative;
+    bottom: 70px;
+    color: #b6b6bb;
+}
+.fst-img2{
+    width: 20vw;
+    margin-left:70%;
+    height:30vh;
+}
+.interview2{
+    position: relative;
+    left: 280px;
+    bottom: 60px;
+    background-color: #06b995;
+    color: #EAEAF0;
+    border: none;
+    width: 90px;
+    height: 30px;
+}
+.blog{
+    display: flex;
+   margin-left:30%;
+}
+.blog-main{
+    display: flex;
+}
+.blog-3{
+    /* position: relative;
+    left: 280px; */
+    margin-left: 22%;
+    
+}
+.interview3{
+    position: relative;
+    left: 320px;
+    bottom: 40px;
+    background-color: #06b995;
+    color: #EAEAF0;
+    width: 90px;
+    height: 40px;
+    border: none;
+}
+.blog-4{
+    position: relative;
+    bottom: 240px;
+    left: 25px;
+}
+.interview4{
+    position: relative;
+    right: 290px;
+    bottom: 20px;
+    background-color: #06b995;
+    color: #EAEAF0;
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+.blog-2{
+    position:relative;
+    right: 60px;
+}
+#img2{
+    width: 22vw;
+    height: 25vh;
+    position: relative;
+    right: 10px;
+}
+.blog-full{
+    position: relative;
+    top: 40px;
+}  
+.footer{
+    background-color: #0b264c;;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: lighter;
+   
+}
+.fott-img{
+    width: 10vw;
+}
+.fott-head{
+    font-size: 0.7em;
+     color: white;
+}
+.foot-head{
+    width: 80%;
+}
+.fott-contact{
+    font-size: 0.85em;
+    color: #9398A1;
+}
+.fott-add{
+    font-size: 0.7em;
+}
+.fott-num{
+    font-size: 0.7em;
+}
+.fott-job-head{
+    font-size: 0.9em;
+    margin-bottom: 15%;
+    color: #9398A1;
+}
+.fott-skill{
+    
+   width: 12%;
+   
+}
+.fot-jobs{
+    margin-top: 5%;
+    font-size: 0.8em;
+}
+.fott-1{
+    margin-left: 10%;
+    
+}
+.fott-bot{
+    margin-top: 0%;
+    margin-left: 10%;
+    color: #e2e6ec;
+}
+.footer{
+    background-color: #0b264c;
+}
+.fott-main{
+   margin-top: 2%;
+    border-top: 1px solid #9398A1;
+} 
+.vlog{
+    color: #eaecee;
+    text-decoration: none;
+}
+.anchor{
+    color:#4B8BFF;
+}
+.eligibility{
+    font-weight: light;
+    font-size: small;
+}
+.giveaway{
+    font-weight:light;
+    font-size: 1em;
+}
+.give{
+    position: relative;
+    left: 30px;
+}
+.missed{
+    border: 1px solid black;
+    height: 60vh;
+    margin-bottom: 10%;
+    width: 80vw;
+    /* position: relative;
+    left: 85px; */
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 30px;
+}
+.fst-img9{
+    margin-right: 60%;
+    margin-left: -10%;
+    width: 20vw;
+    height: 30vh;
+    position: relative;
+    top: 60px;
+    right:60px ;
+    /* border: 2px solid black; */
+}
+.fst-img10{
+    /* margin-right: 20%; */
+    width: 30vw;
+    height: 20%;
+    position: relative;
+    /* bottom: 40px; */
+    top: 20px;
+     left: 190px;
+    /* right:60px ; */
+    border: 2px solid black;
+    margin-top:-70%;
+    
+    
+}
+.fst-img11{
+    width: 20vw;
+    position: relative;
+    left: 200px;
+    height: 30vh;
+    bottom: 180px;
+    margin-bottom: 30%;
+}
+
+#img2{
+    margin-right: 10%;
+}
+.you-may{
+    display:flex;
+    flex-direction: row;
+    height: 40vh;
+    /* border: 1px solid black; */
+    width: 130vw;
+    margin-top: 8%;
+    margin-right: 15%;
+    
+}
+.heading{
+    display:flex;
+    flex-direction: row;
+    height: 10vh;
+    border: 1px solid black;
+    width: 40vw;
+}
+.img9{
+    width: 17vw;
+}
+.img10{
+    width: 15vw;
+    height: 30vh;
+}
+.img11{
+    width: 20vw;
+}
+
 
 
 /* .cba{
@@ -1584,7 +1891,8 @@ tbody{
    }
    .emp-2{
     margin-top: 5%;
-   
+   background-color: #021121;
+  
     margin-left: 0%;
     text-align: center;
    }
@@ -1593,7 +1901,7 @@ tbody{
    }
    .emp-inp2{
     width: 55%;
-    
+    background-color: #14bc9a;
     text-align: center;
    
    }
@@ -1612,12 +1920,16 @@ tbody{
     width: 60%;
    }
    .emp-div{
-    width: 25%;
+    width: 35%;
+   
+   
+   
    }
    .emp-first{
     display: flex;
     justify-content: center;
    }
+   
    .emp-inp5{
     width: 100%;
     margin-left: 12%;
@@ -1629,6 +1941,22 @@ tbody{
     font-size: 0.9em;
     
    }
+   .can-2{
+    margin-bottom: 5%;
+    background-color: #07a40c;
+    margin-left: 0%;
+    text-align: center;
+    
+   }
+   .can-1{
+    height:60vh;
+    
+   }
+   .can-img{
+    height: 40vh;
+   }
+   
+   
    
 
 
@@ -1643,6 +1971,18 @@ tbody{
     }
     .gigs-box{
         width: 45%;
+    }
+    @media (max-width:500px){
+        .emp-inp2{
+            width: 75%;
+
+        }
+
+    }
+    @media (max-width:400px){
+.emp-inp2{
+    width: 80%;
+}
     }
     
     

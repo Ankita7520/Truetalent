@@ -15,6 +15,9 @@ import Add from "./Add";
 import Fetch from "./Flask";
 import Box from "./Box";
 import 'react-phone-input-2/lib/style.css';
+import Blog from "./Blog"
+import Giveaway from "./Giveaway";
+import Google from "./Google";
 
 
 
@@ -38,6 +41,9 @@ const App=()=>{
             <Route path="Filter" element={<Filter></Filter>}></Route>
             <Route path="/Add" element={<Add></Add>}></Route>
             <Route path="/box" element={<Box></Box>}></Route>
+            <Route path="/blog" element={<Blog></Blog>}></Route>
+            <Route path="/giveaway" element={<Giveaway></Giveaway>}></Route>
+            <Route path="/google" element={<Google></Google>}></Route>
         </Routes>
        </BrowserRouter>
 {/*       

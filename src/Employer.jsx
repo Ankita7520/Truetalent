@@ -68,7 +68,7 @@ const Employer=()=>{
           </div>
           
           
-          <PhoneInput  className="input9"
+          {/* <PhoneInput  className="input9"
           containerStyle={{width: '50px'}}
                 country={'in'}
                 value={PhoneNumber}
@@ -76,7 +76,7 @@ const Employer=()=>{
                 inputProps={{
                     required: true,
                 }}
-                />
+                /> */}
                 
           
           <div style={{display:"flex"}} className="emp-div-main">
@@ -102,7 +102,7 @@ const Employer=()=>{
               <input type="text" placeholder="Company Name" className="emp-inp2"/>
             </div>
             <div style={{display:"flex"}} className="emp-div-main">
-              <div>
+              <div className="fs">
                 <input type="text" placeholder="Website" className="emp-inp1"/>
               </div>
               <div>

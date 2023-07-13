@@ -61,8 +61,8 @@ const Register=()=>{
                    <a href="" className="foot-1">Home</a>
                         <a href="/Aboutus" className="foot-1">About Us</a>
                         <a href="/Contactus" className="foot-1">Contact Us</a>
-                        <a href="" className="foot-1">Giveaway</a>
-                        <a href="" className="foot-1">Blog</a>
+                        <a href="/Giveaway" className="foot-1">Giveaway</a>
+                        <a href="/blog" className="foot-1">Blog</a>
                         <a href="/policy" className="foot-1">TermsofUse&PrivacyPolicy</a>
                    </div>
                     <div style={{display:"flex"}}>
