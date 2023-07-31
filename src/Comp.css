@@ -1637,6 +1637,48 @@ background-color: #06b995;
 .img11{
     width: 20vw;
 }
+.Validation{
+    position: inherit;
+    top: 10px;
+}
+.word{
+    position: relative;
+    top: 20px;
+}
+.inn{
+    position: relative;
+    top: 15px;
+}
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    margin-top: 10%;
+}
+/* .login-user{
+    font-size: larger;
+} */
+.input-field {
+    width: 300px;
+    height: 40px;
+  }
+  .color{
+    border: 1px solid black;
+    background-color: #a6a7ab;
+  }
+  .submit{
+    background-color: darkorange;
+    color: white;
+  }
+  .distance2{
+    margin-left: 32px;
+  }
+  .distance3{
+    margin-left: 6px;
+  }
+  */
 
 
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {SlMagnifier,SlLocationPin} from "react-icons/sl";
 // import Valid from "./Validation";
 // import Log from "./Log";
@@ -7,6 +8,7 @@ import Box from "./Box";
 import Table from "./Table"
 
 const Filter=()=>{
+  let navigate=useNavigate()
 
   const [table , settable] = useState(true)
 
@@ -19,9 +21,14 @@ const Filter=()=>{
   let boxhandler=()=>{
     settable(true)
   }
+  let logg=()=>{
+    navigate("/Form")
+}
     return(
         <div>
             <div >
+              <div><button onClick={logg}>CLICK
+                </button></div>
       <div className="sec-1">
         <div className="sec-div-1" id="sec-div-1">
         <SlMagnifier></SlMagnifier>

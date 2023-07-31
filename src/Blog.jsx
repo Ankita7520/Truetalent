@@ -11,7 +11,7 @@ const Blog=()=>{
         <div className="up">
             <div  className="update">
              
-            <button className="dates">  <FaBolt ></FaBolt>  updates</button>
+            <button className="dates"> <FaBolt></FaBolt>  updates</button>
             {/* <FaBolt className="fabolt"></FaBolt>  */}
             
             

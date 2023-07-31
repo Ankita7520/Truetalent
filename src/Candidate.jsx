@@ -10,6 +10,9 @@ const Candidate=()=>{
     let about=()=>{
          navigate("/Aboutus")
     }
+    let google=()=>{
+        navigate("/Google")
+    }
     return(
         <div>
             <nav>
@@ -75,7 +78,7 @@ const Candidate=()=>{
                 </div>
                 
                 <div>
-                    <button className="can-butt2"><FcGoogle/>Continue With Google</button>
+                    <button className="can-butt2" onClick={google} ><FcGoogle/>Continue With Google</button>
                 </div>
             </div>
         </div>

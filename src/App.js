@@ -18,6 +18,7 @@ import 'react-phone-input-2/lib/style.css';
 import Blog from "./Blog"
 import Giveaway from "./Giveaway";
 import Google from "./Google";
+import Form from "./Form"
 
 
 
@@ -44,6 +45,7 @@ const App=()=>{
             <Route path="/blog" element={<Blog></Blog>}></Route>
             <Route path="/giveaway" element={<Giveaway></Giveaway>}></Route>
             <Route path="/google" element={<Google></Google>}></Route>
+            <Route path="/form" element={<Form></Form>}></Route>
         </Routes>
        </BrowserRouter>
 {/*       
